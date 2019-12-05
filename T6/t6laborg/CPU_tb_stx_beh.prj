@@ -1,0 +1,3 @@
+vhdl isim_temp "memory.vhd"
+vhdl isim_temp "MIPSmulti_com_BRAMS.vhd"
+vhdl isim_temp "mips_sem_perif_tb.vhd"

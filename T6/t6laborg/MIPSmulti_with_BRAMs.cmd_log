@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "E:/t6laborg/MIPSmulti_with_BRAMs.xst" -ofn "E:/t6laborg/MIPSmulti_with_BRAMs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 MIPSmulti_with_BRAMs.ngc MIPSmulti_with_BRAMs.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o MIPSmulti_with_BRAMs_map.ncd MIPSmulti_with_BRAMs.ngd MIPSmulti_with_BRAMs.pcf 

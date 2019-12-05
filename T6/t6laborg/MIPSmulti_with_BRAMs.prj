@@ -1,0 +1,2 @@
+vhdl work "memory.vhd"
+vhdl work "MIPSmulti_com_BRAMS.vhd"
