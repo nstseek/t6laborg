@@ -1,0 +1,96 @@
+V3 58
+FL //vboxsrv/data/uu/uu/dspl_drv_nexys.vhd 2012/10/31.19:32:42 O.61xd
+EN work/dspl_drv 1575602090 FL //vboxsrv/data/uu/uu/dspl_drv_nexys.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/STD_LOGIC_UNSIGNED 1308643379
+AR work/dspl_drv/dspl_drv 1575602091 \
+      FL //vboxsrv/data/uu/uu/dspl_drv_nexys.vhd EN work/dspl_drv 1575602090
+FL //vboxsrv/data/uu/uu/memory.vhd 2019/12/06.00:45:28 O.61xd
+EN work/program_memory 1575602092 FL //vboxsrv/data/uu/uu/memory.vhd \
+      PB ieee/std_logic_1164 1308643377 LB UNISIM PH unisim/VCOMPONENTS 1308643377
+AR work/program_memory/a1 1575602093 \
+      FL //vboxsrv/data/uu/uu/memory.vhd EN work/program_memory 1575602092 \
+      CP RAMB16_S36
+EN work/data_memory 1575602094 \
+      FL //vboxsrv/data/uu/uu/memory.vhd PB ieee/std_logic_1164 1308643377 \
+      LB UNISIM PH unisim/VCOMPONENTS 1308643377
+AR work/data_memory/a1 1575602095 \
+      FL //vboxsrv/data/uu/uu/memory.vhd EN work/data_memory 1575602094 \
+      CP RAMB16_S9
+FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd 2012/11/01.18:53:44 O.61xd
+PH work/p_MIPSmulti 1575602096 FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd \
+      PB ieee/std_logic_1164 1308643377
+EN work/regnbit 1575602097 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd PB ieee/std_logic_1164 1308643377
+AR work/regnbit/regn 1575602098 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd EN work/regnbit 1575602097
+EN work/reg_bank 1575602099 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd PB ieee/std_logic_1164 1308643377 \
+      PB ieee/STD_LOGIC_UNSIGNED 1308643379 PH work/p_MIPSmulti 1575602096 \
+      LB UNISIM PH unisim/VCOMPONENTS 1308643377
+AR work/reg_bank/reg_bank 1575602100 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd EN work/reg_bank 1575602099 \
+      CP work/regnbit
+EN work/alu 1575602101 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd PB ieee/std_logic_1164 1308643377 \
+      PB ieee/STD_LOGIC_UNSIGNED 1308643379 PB ieee/std_logic_arith 1308643378 \
+      PH work/p_MIPSmulti 1575602096
+AR work/alu/alu 1575602102 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd EN work/alu 1575602101 \
+      PB ieee/STD_LOGIC_SIGNED 1308643379
+EN work/mult_serial 1575602103 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd PB ieee/std_logic_1164 1308643377 \
+      PB ieee/STD_LOGIC_UNSIGNED 1308643379
+AR work/mult_serial/mult_serial 1575602104 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd EN work/mult_serial 1575602103
+EN work/div_serial 1575602105 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd PB ieee/std_logic_1164 1308643377 \
+      PB ieee/STD_LOGIC_UNSIGNED 1308643379
+AR work/div_serial/div_serial 1575602106 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd EN work/div_serial 1575602105
+EN work/datapath 1575602107 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd PB ieee/std_logic_1164 1308643377 \
+      PB ieee/STD_LOGIC_SIGNED 1308643379 PB ieee/std_logic_arith 1308643378 \
+      PH work/p_MIPSmulti 1575602096
+AR work/datapath/datapath 1575602108 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd EN work/datapath 1575602107 \
+      CP work/regnbit CP work/reg_bank CP work/alu CP work/mult_serial \
+      CP work/div_serial
+EN work/control_unit 1575602109 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd PB ieee/std_logic_1164 1308643377 \
+      PH work/p_MIPSmulti 1575602096
+AR work/control_unit/control_unit 1575602110 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd EN work/control_unit 1575602109
+EN work/MIPSmulti 1575602111 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd PB ieee/std_logic_1164 1308643377 \
+      PH work/p_MIPSmulti 1575602096
+AR work/MIPSmulti/MIPSmulti 1575602112 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd EN work/MIPSmulti 1575602111 \
+      CP work/datapath CP work/control_unit
+EN work/MIPSmulti_with_BRAMs 1575602113 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd PB ieee/std_logic_1164 1308643377 \
+      PB ieee/STD_LOGIC_UNSIGNED 1308643379 PH work/p_MIPSmulti 1575602096
+AR work/MIPSmulti_with_BRAMs/MIPSmulti_with_BRAMs 1575602114 \
+      FL //vboxsrv/data/uu/uu/MIPSmulti_com_BRAMS.vhd \
+      EN work/MIPSmulti_with_BRAMs 1575602113 CP work/MIPSmulti \
+      CP work/program_memory CP work/data_memory
+FL //vboxsrv/data/uu/uu/periferico.vhd 2019/12/05.23:47:00 O.61xd
+EN work/reg_quatro_bits 1575602115 FL //vboxsrv/data/uu/uu/periferico.vhd \
+      PB ieee/std_logic_1164 1308643377
+AR work/reg_quatro_bits/reg 1575602116 \
+      FL //vboxsrv/data/uu/uu/periferico.vhd EN work/reg_quatro_bits 1575602115
+EN work/periferico 1575602117 \
+      FL //vboxsrv/data/uu/uu/periferico.vhd PB ieee/std_logic_1164 1308643377
+AR work/periferico/Behavioral 1575602118 \
+      FL //vboxsrv/data/uu/uu/periferico.vhd EN work/periferico 1575602117 \
+      CP work/reg_quatro_bits CP work/dspl_drv
+FL //vboxsrv/data/uu/uu/top_conts.vhd 2019/12/05.23:53:52 O.61xd
+EN work/top_conts 1575602119 FL //vboxsrv/data/uu/uu/top_conts.vhd \
+      PB ieee/std_logic_1164 1308643377
+AR work/top_conts/Behavioral 1575602120 \
+      FL //vboxsrv/data/uu/uu/top_conts.vhd EN work/top_conts 1575602119 \
+      CP work/MIPSmulti_with_BRAMs CP work/periferico
+FL //vboxsvr/downloads/T6/T6/VHDL/dspl_drv_nexys.vhd 2012/10/31.19:32:42 O.61xd
+FL //vboxsvr/downloads/T6/T6/VHDL/MIPSmulti_com_BRAMS.vhd 2012/11/01.18:53:44 O.61xd
+FL //vboxsvr/t6/VHDL/memory.vhd 2019/12/05.23:48:50 O.61xd
+FL C:/weqwe/uu/periferico.vhd 2019/12/05.23:47:00 O.61xd
+FL C:/weqwe/uu/top_conts.vhd 2019/12/05.23:53:52 O.61xd

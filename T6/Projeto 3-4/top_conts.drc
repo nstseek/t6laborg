@@ -1,0 +1,8 @@
+Release 13.2 Drc O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Fri Dec 06 01:35:56 2019
+
+drc -z top_conts.ncd top_conts.pcf
+
+DRC detected 0 errors and 0 warnings.

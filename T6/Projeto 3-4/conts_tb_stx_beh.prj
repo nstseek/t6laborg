@@ -1,0 +1,6 @@
+vhdl isim_temp "Z:/T6/T6/VHDL/dspl_drv_nexys.vhd"
+vhdl isim_temp "Y:/VHDL/memory.vhd"
+vhdl isim_temp "Z:/T6/T6/VHDL/MIPSmulti_com_BRAMS.vhd"
+vhdl isim_temp "periferico.vhd"
+vhdl isim_temp "top_conts.vhd"
+vhdl isim_temp "Z:/T6/T6/VHDL/mips_com_perif_tb.vhd"

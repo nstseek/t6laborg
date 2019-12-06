@@ -1,0 +1,5 @@
+vhdl work "\\vboxsrv\data\uu\uu\memory.vhd"
+vhdl work "\\vboxsrv\data\uu\uu\dspl_drv_nexys.vhd"
+vhdl work "\\vboxsrv\data\uu\uu\periferico.vhd"
+vhdl work "\\vboxsrv\data\uu\uu\MIPSmulti_com_BRAMS.vhd"
+vhdl work "\\vboxsrv\data\uu\uu\top_conts.vhd"

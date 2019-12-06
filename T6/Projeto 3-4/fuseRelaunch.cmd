@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/weqwe/uu/conts_tb_isim_beh.exe" -prj "C:/weqwe/uu/conts_tb_beh.prj" "work.conts_tb" 

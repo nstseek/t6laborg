@@ -1,0 +1,5 @@
+vhdl work "memory.vhd"
+vhdl work "dspl_drv_nexys.vhd"
+vhdl work "periferico.vhd"
+vhdl work "MIPSmulti_com_BRAMS.vhd"
+vhdl work "top_conts.vhd"

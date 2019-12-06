@@ -1,0 +1,52 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/weqwe/uu/conts_tb_isim_beh.exe" -prj "C:/weqwe/uu/conts_tb_beh.prj" "work.conts_tb" 
+ISim O.61xd (signature 0x1cce1bb2)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "Z:/T6/T6/VHDL/dspl_drv_nexys.vhd" into library work
+Parsing VHDL file "Y:/VHDL/memory.vhd" into library work
+Parsing VHDL file "Z:/T6/T6/VHDL/MIPSmulti_com_BRAMS.vhd" into library work
+Parsing VHDL file "C:/weqwe/uu/periferico.vhd" into library work
+Parsing VHDL file "C:/weqwe/uu/top_conts.vhd" into library work
+Parsing VHDL file "Z:/T6/T6/VHDL/mips_com_perif_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package p_mipsmulti
+Compiling package vcomponents
+Compiling package std_logic_signed
+Compiling architecture regn of entity regnbit [regnbit_default]
+Compiling architecture reg_bank of entity reg_bank [reg_bank_default]
+Compiling architecture alu of entity alu [alu_default]
+Compiling architecture mult_serial of entity mult_serial [mult_serial_default]
+Compiling architecture div_serial of entity div_serial [div_serial_default]
+Compiling architecture regn of entity regnbit [\regnbit(('0','0','0','0','0','0...]
+Compiling architecture datapath of entity datapath [datapath_default]
+Compiling architecture control_unit of entity control_unit [control_unit_default]
+Compiling architecture mipsmulti of entity MIPSmulti [mipsmulti_default]
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ramb16_s36_v of entity RAMB16_S36 [\RAMB16_S36("0000000000000000000...]
+Compiling architecture a1 of entity program_memory [program_memory_default]
+Compiling architecture ramb16_s9_v of entity RAMB16_S9 [\RAMB16_S9("000000000000","00000...]
+Compiling architecture ramb16_s9_v of entity RAMB16_S9 [\RAMB16_S9("000000000000","00000...]
+Compiling architecture ramb16_s9_v of entity RAMB16_S9 [\RAMB16_S9("000000000000","00000...]
+Compiling architecture ramb16_s9_v of entity RAMB16_S9 [\RAMB16_S9("000000000000","00000...]
+Compiling architecture a1 of entity data_memory [data_memory_default]
+Compiling architecture mipsmulti_with_brams of entity MIPSmulti_with_BRAMs [mipsmulti_with_brams_default]
+Compiling architecture reg of entity reg_quatro_bits [reg_quatro_bits_default]
+Compiling architecture dspl_drv of entity dspl_drv [dspl_drv_default]
+Compiling architecture behavioral of entity periferico [periferico_default]
+Compiling architecture behavioral of entity top_conts [top_conts_default]
+Compiling architecture conts_tb of entity conts_tb
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+Compiled 54 VHDL Units
+Built simulation executable C:/weqwe/uu/conts_tb_isim_beh.exe
+Fuse Memory Usage: 76024 KB
+Fuse CPU Usage: 3593 ms

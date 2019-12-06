@@ -1,0 +1,6 @@
+vhdl work "Z:/T6/T6/VHDL/dspl_drv_nexys.vhd"
+vhdl work "Y:/VHDL/memory.vhd"
+vhdl work "Z:/T6/T6/VHDL/MIPSmulti_com_BRAMS.vhd"
+vhdl work "periferico.vhd"
+vhdl work "top_conts.vhd"
+vhdl work "Z:/T6/T6/VHDL/mips_com_perif_tb.vhd"
