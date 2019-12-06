@@ -75,7 +75,7 @@ somcen:	beq	$t4, $s2, somcen	# verifica se a casa das centenas chegou em 9 - 4 c
 	
 .data
 
-ins_limit:	.word	0x001312D0
+ins_limit:	.word	0x004C4B40
 out_dec_s:	.word  	0x10008000
 out_un:      	.word  	0x10008001
 out_dz:      	.word  	0x10008002
